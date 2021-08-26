@@ -55,9 +55,15 @@ Executing this code is very easy. Just type
 
 And the prgram will run. Similiarly for Linux OS.
 
-In the program, we are taking 2 inputs, first- the IP Address(of both Windows and Linux OS) and the port number (on which the connection needs to be established).
+In the program, we are taking 2 inputs,
+first- the IP Address(of both Windows and Linux OS) and the port number (on which the connection needs to be established).
+
 Below are some of the working proofs- 
+
 ![YAY!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat1.png?raw=true)
+
 ![It WORKS!!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat2.png?raw=true)
+
 ![YIPEEEE!!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat3.png?raw=true)
+Here, the connection closes.. Good Bye! 
 
