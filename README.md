@@ -5,11 +5,13 @@ It also utilizes the concept of Socket Programming and Multi-Threading in Python
 
 WHAT IS UDP?
 User Datagram Protocol (UDP) is a Transport Layer protocol. UDP is a part of Internet Protocol suite, referred as UDP/IP suite. Unlike TCP, it is unreliable and connectionless protocol. So, there is no need to establish connection prior to data transfer.
+![alt text](https://github.com/vibhav2000/Chat_App-UDP/blob/main/UDP.png?raw=true)
 
 WHAT IS SOCKET PROGRAMMING ?
 
 Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
 They are the real backbones behind web browsing. In simpler terms there is a server and a client.
+
 
 Let me explain sockets by an example:
 
@@ -19,6 +21,7 @@ Let me explain sockets by an example:
 
 Here we made a socket instance and passed it two parameters. The first parameter is AF_INET and the second one is SOCK_DGRAM. AF_INET refers to the address family ipv4. The SOCK_DGRAM means UDP is connection less protocol.
 Now we can connect to a server using this "socket".
+![alt text](https://github.com/vibhav2000/Chat_App-UDP/blob/main/socketworking.png?raw=true)
 
 WHAT IS THREAD ?
 
@@ -54,5 +57,7 @@ And the prgram will run. Similiarly for Linux OS.
 
 In the program, we are taking 2 inputs, first- the IP Address(of both Windows and Linux OS) and the port number (on which the connection needs to be established).
 Below are some of the working proofs- 
-
+![YAY!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat1.png?raw=true)
+![It WORKS!!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat2.png?raw=true)
+![YIPEEEE!!](https://github.com/vibhav2000/Chat_App-UDP/blob/main/udp-chat3.png?raw=true)
 
